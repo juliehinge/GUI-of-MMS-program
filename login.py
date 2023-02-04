@@ -16,6 +16,7 @@ class Login:
         self.frame_content = ttk.Frame(master)
         self.frame_content.pack()
 
+        # setting up Labels
         ttk.Label(self.frame_content, text="Login", font = ("bold", 20)).grid(row=0, column=0, sticky = 'w', padx = 30, pady = (30,10))
         ttk.Label(self.frame_content, text="Email:", font = ("bold", 15)).grid(row=1, column=0, sticky='w', padx = (30,10))
         ttk.Label(self.frame_content, text="Password:", font = ("bold", 15)).grid(row=2, column=0, sticky = 'w', padx=(30,10))
